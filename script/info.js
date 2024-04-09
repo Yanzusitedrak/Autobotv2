@@ -26,7 +26,7 @@ module.exports.run = async function({ api, event, args, prefix, admin }) {
 
 		const CREATORLINK = "https://www.facebook.com/kyleyukaro";
 		const BOTCREATOR = "𝗞𝗬𝗟𝗘 𝗕𝗔𝗜𝗧-𝗜𝗧";
-		const BOTNAME = "𝗬𝗔𝗡𝗭𝗨";
+		const BOTNAME = "𝗥𝗢𝗕𝗢𝗧𝘃𝟮";
 		const FILESOWNER = "Cid";
 		const juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【HH:mm:ss】");
 		const link = ["https://i.imgur.com/9LDVC57.mp4", "https://i.imgur.com/r7IxgiR.mp4", "https://i.imgur.com/J1jWubu.mp4", "https://i.imgur.com/DJylTiy.mp4", "https://i.imgur.com/v4mLGte.mp4", "https://i.imgur.com/uthREbe.mp4", "https://i.imgur.com/ee8fHna.mp4", "https://i.imgur.com/VffzOwS.mp4", "https://i.imgur.com/ci5nztg.mp4", "https://i.imgur.com/qHPeKDV.mp4", "https://i.imgur.com/Rkl5UmH.mp4",
