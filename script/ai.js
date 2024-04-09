@@ -6,7 +6,7 @@ const { get } = require('axios');
 let url = "https://deku-rest-api.replit.app";
 
 module.exports.config = {
-	name: "Ai",
+	name: "Ai3",
 	version: "1.0.0",
 	role: 0,
 	hasPrefix: false,
