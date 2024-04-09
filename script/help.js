@@ -79,12 +79,12 @@ module.exports.run = async function ({
 			let page = 1;
 			let start = (page - 1) * pages;
 			let end = start + pages;
-			let helpMessage = `\n\n❐𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧❍\n\n╬╬═════════════╬╬
+			let helpMessage = `\n\n❐𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗟𝗜𝗦𝗧❍\n\n
 \n\n╭────────────❍`;
 			for (let i = start; i < Math.min(end, commands.length); i++) {
 				helpMessage += `\n├ ✧『 ${i + 1} 』  ${prefix}${commands[i]}\n├──────────────❍\t`;
 			}
-			helpMessage += '\n\n⏤͟͟͞͞𝗘𝗩𝗘𝗡𝗧 𝗟𝗜𝗦𝗧۞\n╬╬═════════════╬╬
+			helpMessage += '\n\n⏤͟͟͞͞𝗘𝗩𝗘𝗡𝗧 𝗟𝗜𝗦𝗧۞\n
 \n\n';
 			eventCommands.forEach((eventCommand, index) => {
 			helpMessage += `╭─────────────────╮\n |\t『 ${index + 1}.』  ${prefix}${eventCommand}\n╰─────────────────╯ \n\n`;
